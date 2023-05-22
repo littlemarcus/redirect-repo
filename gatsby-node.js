@@ -16,7 +16,7 @@ exports.createPages = async ({ actions }) => {
     defer: true,
   }),
   createRedirect({
-    fromPath: `recipes/*`,
-    toPath: `/blog/recipes/*`
+    fromPath: `page-2`,
+    toPath: `https://insights.accruent.com`
   })
 }
