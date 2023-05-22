@@ -17,6 +17,6 @@ exports.createPages = async ({ actions }) => {
   }),
   createRedirect({
     fromPath: `page-2`,
-    toPath: `https://insights.accruent.com`
+    toPath: `https://insights.accruent.com/nashville`
   })
 }
