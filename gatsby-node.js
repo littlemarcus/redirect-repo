@@ -18,6 +18,5 @@ exports.createPages = async ({ actions }) => {
   createRedirect({
     fromPath: `foo-bar`,
     toPath: `page-2`,
-    redirectInBrowser: true
   })
 }
