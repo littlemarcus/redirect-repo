@@ -18,6 +18,7 @@ exports.createPages = async ({ actions }) => {
   createRedirect({
     fromPath: `/foo-Bar`,
     toPath: `/page-2`,
-    ignoreCase: true
+    ignoreCase: true,
+    isPermanent: true,
   })
 }
