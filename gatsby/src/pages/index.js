@@ -72,7 +72,7 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
-      <img src="/.netlify/images?url=example.png&fit=cover&w=50&h=50" />
+      <img src="../images/example.png" />
       <h1>
         Welcome to <b>Gatsby!</b>
       </h1>
