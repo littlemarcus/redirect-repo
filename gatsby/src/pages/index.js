@@ -73,7 +73,7 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <StaticImage
-        src="https://master--astonishing-gaufre-3c2fc9.netlify.app/.netlify/images?url=example.png&fit=cover&w=50&h=50"
+        src="../images/example.png&w=800&h=600"
         loading="eager"
         width={64}
         quality={95}
