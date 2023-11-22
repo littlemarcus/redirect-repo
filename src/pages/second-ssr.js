@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 
 const SecondSSR = () => (
   <main>
-    <h1>SSR Page with Dogs</h1>
+    <h1>404 Test</h1>
   </main>
 )
 
