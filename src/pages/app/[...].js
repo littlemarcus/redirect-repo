@@ -1,5 +1,6 @@
 import React from "react"
 import { Router } from "@reach/router"
+import Layout from "../../components/layout"
 import NetlifyComponent from "../../components/netlify-component"
 
 const App = () => {
@@ -7,7 +8,6 @@ const App = () => {
       <Layout>
         <Router basepath="/app">
           <NetlifyComponent path="/netlify-component" component={NetlifyComponent} />
-          <Default path="/" />
         </Router>
       </Layout>
     )
