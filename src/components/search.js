@@ -8,6 +8,6 @@ const Search = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Match Test" />
+export const Head = () => <Seo title="matchPath Test" />
 
 export default Search
