@@ -6,7 +6,7 @@ import NetlifyComponent from "../../components/netlify-component"
 const App = () => {
     return (
       <Layout>
-        <Router basepath="/app">
+        <Router basepath="/example">
           <NetlifyComponent path="/netlify-component" component={NetlifyComponent} />
         </Router>
       </Layout>
