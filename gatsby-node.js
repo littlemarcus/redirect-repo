@@ -15,11 +15,6 @@ exports.createPages = async ({ actions }) => {
     context: {},
     defer: true,
   }),
-    createPage({
-      path: "/search",
-      matchPath: "/search/*",
-      component: require.resolve("./src/components/search.js"),
-    })    
   createRedirect({
     fromPath: `/foo-Bar`,
     toPath: `/page-2`,
