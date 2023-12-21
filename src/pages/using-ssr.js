@@ -48,8 +48,10 @@ export async function getServerData() {
   } catch (error) {
     return {
       status: 500,
-      headers: {},
-      props: {},
+      headers: {
+        'Cache-Control': 'public, max-age=10, s-maxage=60, stale-while-revalidate=240',
+      },
+      props: {test: Math.random()},
     }
   }
 }
